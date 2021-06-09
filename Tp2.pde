@@ -46,8 +46,8 @@ void draw(){
   jay = jay +1;
      textFont(fuente);
   text( "Dirigida por \n Steven Spielberg",350,800 - jay);
-      if( millis()-marcaDelTiempo >= tiempoDePantalla ){  //--------------------------------- EVENTO! CAMBIO DE ESTADO
-      marcaDelTiempo = millis();  //IMPORTANTE: DEBO resetear la marcaDelTiempo
+      if( millis()-marcaDelTiempo >= tiempoDePantalla ){ 
+      marcaDelTiempo = millis(); 
       Pantalla = 1;
       println( "marcaDelTiempo: " + marcaDelTiempo );
     }
@@ -61,7 +61,7 @@ void draw(){
   text("Kathleen Kennedy -Productor",1100-jay,750 - jay);
   text("Lata Ryan -Productor asociado",1100-jay,800 - jay);
   text("Colin Wilson -Productor asociado",1100-jay,850 - jay);
-   if( millis()-marcaDelTiempo > tiempoDePantalla ){  //--------------------------------- EVENTO! CAMBIO DE ESTADO
+   if( millis()-marcaDelTiempo > tiempoDePantalla ){ 
       marcaDelTiempo = millis();  
       Pantalla = 2;
       jay=0;
@@ -75,7 +75,7 @@ void draw(){
   textFont(fuente2);
   text("Sam Neill - Dr. Alan Grant  \n Laura Dern - Dra. Ellie Sattler \n Jeff Goldblum - Dr. Ian Malcolm \n Richard Attenborough - John Hammond \n Joseph Mazzello - Tim Murphy",1100-jay,200 );
   text("Ariana Richards - Lex Murphy \n Bob Peck - Robert Muldoon \n Martin Ferrero - Donald Gennaro \n Samuel L. Jackson - Arnold Ray \n B. D. Wong - Henry Wu \n Wayne Knight - Dennis Nedry \n Gerald R. Molen - Gerry Harding \n Cameron Thor - Lewis Dodgson",1100-jay,400);
-   if( millis()-marcaDelTiempo > tiempoDePantalla ){  //--------------------------------- EVENTO! CAMBIO DE ESTADO
+   if( millis()-marcaDelTiempo > tiempoDePantalla ){  
       marcaDelTiempo = millis();  
       Pantalla = 3;
       println( "marcaDelTiempo: " + marcaDelTiempo );
@@ -92,7 +92,7 @@ void draw(){
   textFont(fuente2);
   text("Jonh Williams",200,900-jay);
 text("1. Títulos iniciales \n 2. Tema de Jurassic Park \n 3. Incidente en la isla \n 4. Viaje a la isla \n 5. El ataque de las rapaces \n 6. Bebé raptor para incubar \n 7. Bienvenido a Jurassic Park \n 8. Mi amigo,el braquiosaurio \n 9. Dennis roba el embrión \n 10. Un árbol para mi cama \n 11. Trucos de cuerda floja \n 12. Recordando Petticoat Lane \n 13. Puerta del Parque Jurásico \n 14. Ojo a ojo \n 15. T-Rex Rescate y Final \n 16. Créditos finales",200,950-jay);
-  if( millis()-marcaDelTiempo > tiempoDePantalla ){  //--------------------------------- EVENTO! CAMBIO DE ESTADO
+  if( millis()-marcaDelTiempo > tiempoDePantalla ){  
       marcaDelTiempo = millis();  
       Pantalla = 4;
       println( "marcaDelTiempo: " + marcaDelTiempo );
@@ -107,7 +107,7 @@ text("Judy Drosd \n Don Lessem \n George Lucas \n JoAnn Yukimura",1320-jay,200);
 textFont(Titulo);
 text("Gracias",1300-jay,100);
 
- if( millis()-marcaDelTiempo > tiempoDePantalla ){  //--------------------------------- EVENTO! CAMBIO DE ESTADO
+ if( millis()-marcaDelTiempo > tiempoDePantalla ){  
       marcaDelTiempo = millis();  
       Pantalla = 0;
       jay=0;
