@@ -1,3 +1,5 @@
+//LEER README por favor
+
 int pantalla;
 juego Jugando;
 void setup(){
