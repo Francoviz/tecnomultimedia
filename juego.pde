@@ -23,6 +23,7 @@ lallave= new llave(random(1,800),random(100,500),25);
 void update(){
 
   PImage cocina;
+  //Pixelartmaker.com
   cocina=loadImage("kitchenn.png");
   image(cocina,0,0);
 
@@ -40,13 +41,6 @@ lallave.colisionl(jugador);
 
 void teclado(){
 jugador.elnene();
-
-
-}
-
-int devolverestadojuego(){
-
-return  y; 
 
 
 }
