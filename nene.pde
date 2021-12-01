@@ -37,7 +37,7 @@ Jugando.pantalla=3;
 }
 
 
-
+//para mover a tommy por pantalla
 void elnene(){
   
 
