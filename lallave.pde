@@ -1,4 +1,5 @@
 class llave{
+  
   float lx;
   float ly;
   int lradio;
@@ -49,7 +50,7 @@ fill(0,255,0);
 textSize(16);
 text("salida",490,14);
 if( 415 < x_nen && x_nen < 500 && y_nen < -10 && agarrolallave==true){
- pantalla=2; 
+ Jugando.pantalla=2; 
 }
 else if(415 < x_nen && x_nen < 500 && y_nen < -10 && agarrolallave==false){
   text("te olvidaste la llave",0,14);
