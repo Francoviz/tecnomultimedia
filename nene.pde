@@ -30,7 +30,7 @@ void colision(dinos[] raptores){
   float y_dino=raptores[i].getY();
   float d=dist(x,y,x_dino,y_dino);
 if(d < 39){
-pantalla=3;
+Jugando.pantalla=3;
 }
 
   }
