@@ -11,7 +11,7 @@ class llave{
     ly=Ly;
     lradio=Lradio;
   }
-  
+  //colision de llave
   void lvisual(){
     
     if( agarrolallave==false){
@@ -29,6 +29,7 @@ image(llavesota,lx,ly);
   
   }   
   }
+  //colisiones
   void colisionl(nene nen){
   float x_nen=nen.getnX();
   float y_nen=nen.getnY();
