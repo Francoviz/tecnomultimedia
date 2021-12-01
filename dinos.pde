@@ -14,7 +14,7 @@ dinos(float Xpos,float Ypos, float Xspeed,int Radio){
 
 }
 
-
+//dinomovivientos
 void move(){
     xpos += xspeed;
     if(xpos > width -radio-60){
@@ -26,7 +26,7 @@ void move(){
 
 
 
-
+//visualizacion de dinos
 void visualizar(int pepe){
   
 if(pepe==1||pepe==4||pepe==7){
