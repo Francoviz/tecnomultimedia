@@ -17,6 +17,8 @@ int pantalla=1;
       lallave= new llave(random(1, 800), random(100, 500), 25);
     }
   }
+  
+  //visualizar casi todo
   void update() {
 
     PImage cocina;
@@ -33,7 +35,7 @@ int pantalla=1;
     lallave.lapuerta(jugador);
     lallave.colisionl(jugador);
   }
-
+//cosas de teclado
   void teclado() {
     jugador.elnene();
 
@@ -61,6 +63,7 @@ int pantalla=1;
       Jugando.update();
     }
     //comprobar si al volver al juego tengo que volver a setSize
+    //pantallas/estados
     if (pantalla ==1) {
       PImage cocina;
       surface.setSize(800, 600);
