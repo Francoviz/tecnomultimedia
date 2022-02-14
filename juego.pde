@@ -18,7 +18,7 @@ int pantalla=1;
     }
   }
   
-  //visualizar casi todo
+  //visualizar casi todo Y LA PANTALLA DEL JUEGO CON SU CARGA 
   void update() {
 
     PImage cocina;
@@ -35,7 +35,7 @@ int pantalla=1;
     lallave.lapuerta(jugador);
     lallave.colisionl(jugador);
   }
-//cosas de teclado
+//cosas de teclado Y EL CAMBIO DE PANTALLAS DEL JUEGO
   void teclado() {
     jugador.elnene();
 
@@ -63,7 +63,8 @@ int pantalla=1;
       Jugando.update();
     }
     //comprobar si al volver al juego tengo que volver a setSize
-    //pantallas/estados
+    
+    //pantallas/estados ESTAS SERIAN LAS PANTALLAS PARA DAR INICIO AL JUEGO,PARA PERDER Y PARA GANAR
     if (pantalla ==1) {
       PImage cocina;
       surface.setSize(800, 600);
