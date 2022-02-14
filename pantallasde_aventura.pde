@@ -128,7 +128,7 @@ class Pantalla {
     } else if (keyPressed==true && keyCode==RIGHT && Estado==19) {
       Estado=23; //ESTADO 23 ES LA PANTALLA SI GANO EL JUEGO
     } else if (keyPressed==true && keyCode==DOWN && Estado==23) {
-      Estado=24; //ESTADO 24 ES LA QUE SIGUE LA HISTORIA DESPUES DE 
+      Estado=24; //ESTADO 24 ES LA QUE SIGUE DESPUES DE LA 23
     } else if (keyPressed==true && keyCode==RIGHT && Estado==24) {
       Estado=27; //ESTA ES LA PANTALLA SI PIERDO EN EL JUEGO
     } else if (keyPressed==true && keyCode==DOWN && Estado==24) {
