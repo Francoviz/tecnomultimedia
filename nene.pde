@@ -16,7 +16,7 @@ nino.resize(int(tam),int(tam));
   image(nino,x,y);
 }
 
-
+//PARA LA COLISION DE RAPTORS Y VER A TOMMY EN PANTALLA
 void vernene(){
 
 nino=loadImage("tommy.png");
