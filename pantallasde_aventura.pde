@@ -122,23 +122,21 @@ class Pantalla {
     } else if (keyPressed==true && keyCode==LEFT && Estado==10) {
       Estado=15;
     } else if (keyPressed==true && keyCode==DOWN && Estado==15) {
-      Estado=19;
+      Estado=19;//PRIMERA PANTALLA DEL JUEGO 19
     } else if (keyPressed==true && keyCode==LEFT && Estado==19) {
       Estado=20;
     } else if (keyPressed==true && keyCode==RIGHT && Estado==19) {
-      Estado=23;
-      //RECORDATORIO AGREGAR TRAMPA
+      Estado=23; //ESTADO 23 ES LA PANTALLA SI GANO EL JUEGO
     } else if (keyPressed==true && keyCode==DOWN && Estado==23) {
-      Estado=24;
+      Estado=24; //ESTADO 24 ES LA QUE SIGUE LA HISTORIA DESPUES DE 
     } else if (keyPressed==true && keyCode==RIGHT && Estado==24) {
-      Estado=27;
+      Estado=27; //ESTA ES LA PANTALLA SI PIERDO EN EL JUEGO
     } else if (keyPressed==true && keyCode==DOWN && Estado==24) {
       Estado=25;
     } else if (keyPressed==true && keyCode==UP && Estado==8) {
       Estado=12;
     } else if (keyPressed==true && keyCode==DOWN && Estado==8) {
       Estado=11;
-      //AGREGAR UNA POSIBLE PANTALLA DE JUNGLA
     } else if (keyPressed==true && keyCode==DOWN && Estado==11) {
       Estado=26;
     } else if (keyPressed==true && keyCode==DOWN && Estado==26) {
